@@ -222,7 +222,7 @@ The content is written in a ${formData.tone.toLowerCase()} tone and follows the 
                           <h4 className="font-medium text-gray-900">{template.type}</h4>
                         </div>
                         <p className="text-sm text-gray-600 mb-2">{template.description}</p>
-                        <p className="text-xs text-gray-500 italic">"{template.example}"</p>
+                        <p className="text-xs text-gray-500 italic">&quot;{template.example}&quot;</p>
                       </CardContent>
                     </Card>
                   );

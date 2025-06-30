@@ -479,7 +479,7 @@ export default function WebTools() {
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 A comprehensive suite of web development tools to streamline your workflow, 
-                improve your site's performance, and boost productivity.
+                improve your site&apos;s performance, and boost productivity.
               </p>
             </motion.div>
 
@@ -607,7 +607,7 @@ export default function WebTools() {
                 <CardHeader>
                   <CardTitle className="text-2xl">Need a Custom Tool?</CardTitle>
                   <CardDescription className="text-green-100">
-                    Can't find what you're looking for? Let us know what tool you need and we'll build it for you.
+                    Can&apos;t find what you&apos;re looking for? Let us know what tool you need and we&apos;ll build it for you.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>

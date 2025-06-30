@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Zap, Shield, Users, Sparkles, FileType, Wand2, Wrench, BarChart3, Star, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -245,7 +246,7 @@ export default function Home() {
               What Our Users Say
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Real feedback from creators who've transformed their workflow with WebTools Pro
+              Real feedback from creators who&apos;ve transformed their workflow with WebTools Pro
             </p>
           </motion.div>
 
@@ -261,9 +262,11 @@ export default function Home() {
                 <Card className="h-full">
                   <CardContent className="p-6">
                     <div className="flex items-center mb-4">
-                      <img
+                      <Image
                         src={testimonial.avatar}
                         alt={testimonial.name}
+                        width={48}
+                        height={48}
                         className="w-12 h-12 rounded-full mr-4"
                       />
                       <div>
@@ -271,7 +274,7 @@ export default function Home() {
                         <p className="text-sm text-gray-600">{testimonial.role}</p>
                       </div>
                     </div>
-                    <p className="text-gray-700 italic">"{testimonial.content}"</p>
+                    <p className="text-gray-700 italic">&quot;{testimonial.content}&quot;</p>
                     <div className="flex mt-4">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />

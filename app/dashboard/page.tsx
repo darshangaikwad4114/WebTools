@@ -127,7 +127,7 @@ export default function Dashboard() {
             Welcome back, {user.user_metadata?.full_name || user.email?.split('@')[0]}!
           </h1>
           <p className="text-gray-600">
-            Here's an overview of your WebTools Pro activity and usage statistics.
+            Here&apos;s an overview of your WebTools Pro activity and usage statistics.
           </p>
         </motion.div>
 
